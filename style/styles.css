@@ -6,6 +6,7 @@
 
 html {
   height: 100%;
+  font-size: 18px;
 }
 
 .attribution {
@@ -13,4 +14,29 @@ html {
   left: 0;
   bottom: 0;
   width: 100%;
+  border-top: 1px solid yellow;
+  font-size: 1rem;
+ color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    
+}
+
+.card
+{
+    border: 2px solid red;
+    font-size: 1rem;
+    background-color: hsl(244, 38%, 16%);
+}
+
+a{
+    text-decoration: none;
 }
